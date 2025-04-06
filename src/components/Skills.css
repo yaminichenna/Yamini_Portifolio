@@ -1,0 +1,38 @@
+.skills-section {
+    padding: 4rem 1rem;
+    background: #f8f4ff;
+    text-align: center;
+  }
+  
+  .skills-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    background: linear-gradient(to right, #090909);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .skills-card {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  }
+  
+  .skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+    font-size: 2.2rem;
+    color: #6a11cb;
+  }
+  
+  .skill-icon:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+  }
+  
