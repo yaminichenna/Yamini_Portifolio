@@ -1,9 +1,12 @@
-// vite.config.js
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+
+const repoName = 'Yamini_Portifolio';
 
 export default defineConfig({
-  base: '/Yamini_Portfolio/', 
+  base: `/${repoName}/`,
   plugins: [react()],
-})
+});
+
 

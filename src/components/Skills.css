@@ -7,11 +7,12 @@
   .skills-title {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    background: linear-gradient(to right, #090909);
+    background: linear-gradient(to right, #6a11cb, #2575fc);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
   }
+  
   
   .skills-card {
     max-width: 1000px;
