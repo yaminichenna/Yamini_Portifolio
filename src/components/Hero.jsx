@@ -20,7 +20,7 @@ const Hero = () => {
           <p>
             — A Data Engineer with a Master's in IT & Management from Illinois Institute of Technology, passionate about building scalable data solutions in the cloud.
           </p>
-          <a href="#projects" className="hero-button">View My Work ↓</a>
+          <a href="#About" className="hero-button">View My Work ↓</a>
         </div>
       </div>
     </section>
