@@ -4,13 +4,10 @@
     text-align: center;
   }
   
-  .experience-title {
+  .experience--title {
     font-size: 2.5rem;
     margin-bottom: 2rem;
-    background: linear-gradient(90deg, #0c0c0c);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    color: #000; /* solid black */
   }
   
   .experience-container {
